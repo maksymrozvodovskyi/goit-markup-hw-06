@@ -38,7 +38,11 @@
             <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
           </ul>
         </nav>
-
+        <button class="burger-btn" type="button" data-menu-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="contacts">
           <ul class="contacts-list">
             <li class="contacts-item">
@@ -53,11 +57,6 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn" type="button" data-menu-open>
-          <svg class="burger-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-burger"></use>
-          </svg>
-        </button>
       </div>
       <div class="mobile-menu" data-menu>
         <div class="container mobile-menu-container">
@@ -153,7 +152,7 @@
         </div>
       </section>
       <!-- Advantages section -->
-      <section class="advantages hide">
+      <section class="advantages">
         <div class="container advantages-container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="advantages-list">
@@ -211,7 +210,7 @@
       <!-- Team section -->
       <section class="team">
         <div class="container team-container">
-          <h2 class="team-title">Our Team</h2>
+          <h2 class="title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
               <img
@@ -455,7 +454,7 @@
       <!-- Portfolio section -->
       <section class="portfolio">
         <div class="container portfolio-container">
-          <h2 class="portfolio-title">Our Portfolio</h2>
+          <h2 class="title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="wrapper">
@@ -720,7 +719,7 @@
       </section>
     </main>
     <!-- Footer section -->
-    <footer class="page-footer hide">
+    <footer class="page-footer">
       <div class="container footer-container">
         <div class="logo-container">
           <a class="logo footer-logo" href="./index.html"
@@ -777,7 +776,7 @@
           </ul>
         </div>
         <div class="footer-wrapper">
-          <p class="footer-text">Subscribe</p>
+          <p class="form-text">Subscribe</p>
           <form class="footer-form" autocomplete="on">
             <label class="footer-form-label" for="footer-input">
               <input
@@ -798,7 +797,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop hide" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button class="button-close" type="button" data-modal-close>
           <svg class="svg-close" width="8" height="8">
